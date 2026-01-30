@@ -34,9 +34,7 @@ All data is publicly available and hosted by the City of Boston or relevant agen
 ### Risk Scoring Algorithm
 Each street segment is assigned a composite risk score calculated as:
 
-\[
-\text{Risk Level} = \text{Crash Count} \times 100 + \text{Theft Count} \times 20 + \text{Pothole Count} \times 5
-\]
+_Risk Level = (Crash Count × 100) + (Theft Count × 20) + (Pothole Count × 5)_
 
 Crashes are weighted most heavily to reflect safety priority.
 
